@@ -26,7 +26,12 @@ SECRET_KEY = "django-insecure-3^@v*y$l5j(4_fzlurpfuiu6+_(1@3*njm0n(giy51jxqhc1$v
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CORS_ORIGIN_ALLOW_ALL = True
 
+CSRF_USE_SESSIONS = True
+CSRF_TRUSTED_ORIGINS = [
+    "https://padel-kjb7.onrender.com",
+]
 
 # Application definition
 
