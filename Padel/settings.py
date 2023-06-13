@@ -82,7 +82,7 @@ WSGI_APPLICATION = "Padel.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "gdbd",
+        "NAME": "padel",
         "USER":"vale",
         "HOST": "dpg-ci48v3diuie031h5og1g-a.oregon-postgres.render.com",
         "PORT": "5432",
