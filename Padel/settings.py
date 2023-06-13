@@ -84,11 +84,13 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "padel",
         "USER":"vale",
-        "HOST": "dpg-ci48v3diuie031h5og1g-a.oregon-postgres.render.com",
+        "HOST": "dpg-ci49heiip7vptq795940-a.oregon-postgres.render.com",
         "PORT": "5432",
-        "PASSWORD": "CfROgHEYcOyg4ALQ0b6U1p9C8Oc6J5wt",
+        "PASSWORD": "1SteqppBidimA591GUh4gd4YX6gRlBQm",
     }
 }
+
+""
 
 
 # Password validation
