@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-3^@v*y$l5j(4_fzlurpfuiu6+_(1@3*njm0n(giy51jxqhc1$v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -77,8 +77,11 @@ WSGI_APPLICATION = "Padel.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "padel",
-        "USER":"valentincabrera"
+        "NAME": "gdbd",
+        "USER":"vale",
+        "HOST": "dpg-ci48v3diuie031h5og1g-a.oregon-postgres.render.com",
+        "PORT": "5432",
+        "PASSWORD": "CfROgHEYcOyg4ALQ0b6U1p9C8Oc6J5wt",
     }
 }
 
